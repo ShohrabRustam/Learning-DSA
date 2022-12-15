@@ -3,7 +3,7 @@
 * @file:	charAscii.cpp
 * @author:	rustam
 * @date:	2022年12月15日 23:48:28 Thursday
-* @brief:	some value for ascii character
+* @brief:	some value for ascii character using the ternary operator
 **********************************************************************************************************************************************************************************************************************************
 **/
 #include<bits/stdc++.h>
