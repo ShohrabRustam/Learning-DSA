@@ -1,9 +1,9 @@
 /**
 **********************************************************************************************************************************************************************************************************************************
-* @file:	cinget.cpp
-* @author:	
-* @date:	2022年12月15日 23:43:02 Thursday
-* @brief:	cin never read space tab and enter so for read all the things by cin the we use cin.get() it always take like char
+* @file:	charAscii.cpp
+* @author:	rustam
+* @date:	2022年12月15日 23:48:28 Thursday
+* @brief:	some value for ascii character
 **********************************************************************************************************************************************************************************************************************************
 **/
 #include<bits/stdc++.h>
@@ -11,7 +11,14 @@ using namespace std;
  
 int main()
 {
-int n = cin.get();
-cout<<n<<endl; 
+  char c;
+  cin >> c;
+  if(c>='0' && c<='9'){
+    cout<<"this is the Number"<<endl;
+  }else if(c>='a' && c<='z') {
+    cout<<"this is the lowercase string"<<endl;
+  } else if(c>='A' && c<='Z'){
+    cout<<"this is the uppercase string"<<endl;
+  }
     return 0;
 }
