@@ -1,0 +1,27 @@
+Snippet	Description
+cppf  ---->  	snippet for competitive programming
+#def  ---->  	snippet for #def
+#ifdef  ---->  	snippet for #if
+#ifndef  ---->  	snippet for #ifndef
+#inc  ---->  	snippet for #include
+case  ---->  	snippet for case (...)
+class  ---->  	snippet for a class declaration
+class inherit  ---->  	snippet for a class-inherit declaration
+do  ---->  	snippet for a do...while loop
+else  ---->  	snippet for else
+else if  ---->  	snippet for else-if
+enum  ---->  	snippet for an enum declaration
+fileheader  ---->  	snippet for a file header
+for	  ---->  snippet for a for loop
+foreach	snippet for a for-auto loop
+if  ---->  	snippet for an if statement
+main  ---->  	snippet for a main function declaration
+namespace  ---->  	undefined
+struct  ---->  	snippet for a struct declaration
+switch  ---->  	snippet for a switch statement
+template  ---->  	snippet for a template
+
+try	snippet for a try-catch block
+union  ---->  	snippet for a union declaration
+using  ---->  	snippet for using namespace
+while  ---->  	snippet for a while loop
