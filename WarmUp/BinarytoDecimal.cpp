@@ -9,16 +9,26 @@
 
 #include<bits/stdc++.h>
 using namespace std;
- 
-int main()
-{ 
-int n;
-cin >> n;
-int result = 0;
-while (n){
-    if(n%10==0){
-        result = 2*result;
-    }
+
+// function definition
+int binaryToDecimal(long long n) {
+  int dec = 0, i = 0, rem;
+
+  while (n!=0) {
+    rem = n % 10;
+    n /= 10;
+    dec += rem * pow(2, i);
+    ++i;
+  }
+
+  return dec;
 }
-    return 0;
+
+int main() {
+  long long n;
+  cout << "Enter a binary number: ";
+  cin >> n;
+  cout << n << " in binary = " << binaryToDecimal(n) << " in decimal";
+  return 0;
 }
+
