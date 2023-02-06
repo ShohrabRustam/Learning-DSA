@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  learningdsa:
+    image: learningdsa
+    build:
+      context: .
+      dockerfile: ./Dockerfile
